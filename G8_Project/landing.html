@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Ground Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@200;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="landing.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="choosing.html?equipment=Show%20All&nights=1">Reserve a site</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main section -->
+    <main>
+        <p>You don't have to go far to get away.</p>
+        <div id="reservation-container">
+            <div class="column-style">
+                Equipment Type<br>
+                <div>
+                    <select id="equipment">
+                        <option value="Show All">Show All</option>
+                    </select>
+                </div>
+            </div>
+            <div class="column-style">
+                Nights<br>
+                <div>
+                    <select id="nights">
+                        
+                    </select>
+                </div>
+            </div>
+            <div class="column-style">
+                <br>
+                <div><button onclick="passFilters()">Reserve</button></div>
+            </div>
+        </div>
+    </main>   
+</body>
+<script src="js/landing.js"></script>
+</html>

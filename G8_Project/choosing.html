@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Ground Booking</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@200;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="choosing.css"/>
+</head>
+<body id="content">
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="choosing.html">Reserve a site</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h3>
+            <div>
+                <p class="header">1. Choose a Site</p> 
+                <p class="header" id="next">2. Review and Pay</p>
+            </div>
+        </h3>
+    </main>
+    <div id="filterDiv">
+        <span>Filter by equipment: </span>
+        <select id="equipment">
+            <option value="Show All">Show All</option>
+        </select>
+    
+        <span>Filter by nights: </span>
+        <select id="nights">
+        </select>
+    </div>
+
+    <div id = "searchResults">
+    </div>
+
+</body>
+<script src="js/choosing.js"></script>
+</html>

@@ -1,0 +1,153 @@
+* {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Rubik", Arial, Helvetica, sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+}
+li {
+    display:inline;
+    margin-right:20px;
+}
+
+a.nav {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-transform: uppercase;
+    display:inline-block;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    color:white;
+}
+a.nav:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h4.title {
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+img {
+    height: 30px;
+    display: inline;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+a.menu {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-transform: uppercase;
+    display:inline-block;
+    padding-top: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
+    color:black;
+}
+a.menu:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+section {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+button {
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    background-color: rgb(68, 189, 149);
+    color: white;
+    border-style: none;
+}
+
+main {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+input.nights {
+    width: 55px;
+    display: inline;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+input.text-field {
+    width: 300px;
+    display: block;
+    margin-top: 5px;
+}
+
+p.header {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: rgb(68, 189, 149);
+    text-transform: uppercase;
+    display:inline-block;
+    padding-right: 30px;
+}
+#prev {
+    color: rgb(100,100,100);
+    text-decoration: none;
+}
+
+p.section {
+    display: block;
+    margin-top: 5px;
+}
+
+p.nights {
+    display: inline;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#receipt-container {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: darkgrey;
+    width: 500px;
+}
+
+#receipt {
+    display: block;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+#content{
+    background-image: url(https://picsum.photos/seed/picsum/1600/800);
+    height: fit-content;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Ground Booking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@200;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="booking.css"/>
+</head>
+<body id="content">
+    <header>
+        <nav>
+            <ul>
+                <li><a class="nav" href="choosing.html">Reserve a site</a></li>
+                <li><a class="nav" href="#">Resources</a></li>
+                <li><a class="nav" href="#">Deals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h3>
+            <div>
+                <p class="header" id="prev">1. Choose a Site</p> 
+                <p class="header">2. Review and Pay</p>
+            </div>
+        </h3>
+    </main>
+
+    <section>
+        <div>
+            <h4 class="title">1. Site Information</h4>
+            <p id="site" class="section">Site: </p>
+            <p id="equipment" class="section">Equipment: </p>
+            <div id="icons"></div>
+            <p class="section" id = "availability">Availability </p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h4 class="title">2. Guest Details</h4>
+            <div>
+                <p class="nights">Number of Nights: </p>
+                <input id="number-of-nights" class="nights" type="number" placeholder="1" value = "1"onchange="limitNights(this);"/>
+            </div>
+            <input id="name" class="text-field" type="text" placeholder="Enter name"/>
+            <input id="email" class="text-field" type="text" placeholder="Enter email"/>
+        </div>
+    </section>
+
+    <button onclick="showReceipt()">Reserve</button>
+    <div id="receipt-container"></div>
+
+</body>
+<script src="js/booking.js"></script>
+</html>
